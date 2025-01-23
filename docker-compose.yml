@@ -2,7 +2,7 @@ version: "3.6"
 services:
   wordpress:
     image: wordpress:latest
-    container_name: wordpress
+    container_name: wordpress-tm
     volumes:
       - ./wp-content:/var/www/html/wp-content
     environment:
@@ -20,7 +20,7 @@ services:
 
   db:
     image: mariadb:latest
-    container_name: db
+    container_name: db-tm
     volumes:
       - db_data:/var/lib/mysql
       # This is optional!!!
@@ -37,7 +37,7 @@ services:
     depends_on:
       - db
     image: phpmyadmin/phpmyadmin:latest
-    container_name: phpmyadmin
+    container_name: phpmyadmin-tm
     restart: always
     ports:
       - 8180:80
