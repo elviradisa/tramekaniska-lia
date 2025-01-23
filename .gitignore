@@ -1,2 +1,11 @@
 
 .DS_Store
+wp-content/plugins/*
+wp-content/uploads/*
+wp-content/themes/blogasm/
+wp-content/themes/ona/
+wp-content/themes/ona-studio/
+wp-content/themes/twentytwentyfive/
+wp-content/themes/twentytwentyfour/
+wp-content/themes/twentytwentythree/
+wp-content/themes/extendable/
