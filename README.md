@@ -1,4 +1,4 @@
-## Trämekaniska.se - LIA 
+## Trämekaniska - LIA 
 
 #### Projekt på utbildningen:
 [Front end webbutvecklare](https://gritacademy.se/front-end-webbutvecklare/) 400 YH-poäng - [Grit Academy](https://gritacademy.se/)  
