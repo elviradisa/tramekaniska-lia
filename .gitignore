@@ -2,6 +2,8 @@
 .DS_Store
 wp-content/plugins/*
 wp-content/uploads/*
+wp-content/plugins/
+wp-content/languages/
 wp-content/themes/blogasm/
 wp-content/themes/ona/
 wp-content/themes/ona-studio/
