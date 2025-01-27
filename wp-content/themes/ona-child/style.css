@@ -20,6 +20,7 @@
     text-decoration: none;
     color: #000;
     background-color: #fff;
+    margin: 2.5px;
 }
 
 .button-om-oss:hover {
@@ -34,6 +35,7 @@
     text-decoration: none;
     color: #fff;
     background-color: #8B5E3C;
+    margin: 2.5px;
 }
 
 .button-kontakt:hover {
