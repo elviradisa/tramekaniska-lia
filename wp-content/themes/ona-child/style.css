@@ -7,23 +7,32 @@
 
 
  /* Base settings */ 
- 
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
  body {
-  background-color: #E0DBD1;
+  background-color: #F2F0EC;
+ }
+
+ header {
+  text-transform: uppercase;
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
  }
  
- /* Note: Align left in settings for pages & posts */
- h1 {
+ /******
+ Note: Settings for pages & posts must be: 
+  - Align left & 
+  - "Inre block använder innehållsbredd" 
+  *******/
+  
+ h1,  h1.wp-block-site-title {
   font-family: "Marcellus", serif;
   font-weight: 300;
   font-style: normal;
-  width:720px;
-  margin:0 auto;
  }
 
-
- /*  width for mobile etc, fix later */
- /* h1{
-  width:calc(100% - 2 * var(--wp--style--block-gap)) !important;
- } */
-
+ h1.wp-block-site-title { 
+  letter-spacing: 1px;
+ }
