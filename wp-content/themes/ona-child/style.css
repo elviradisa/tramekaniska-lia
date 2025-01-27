@@ -2,13 +2,28 @@
  * Theme Name: Ona Child
  * Template:   ona
  * Author: Petra Hastman, Elvira Ericsson, Erik Werther, Morteza Amini, André Iskra Jönsson
- Description: A child theme of Ona that is made for Tramekaniska.se
+ Description: A child theme of Ona made for Tramekaniska.se
  */
 
 
- /* Basics */ 
+ /* Base settings */ 
  
  body {
   background-color: #E0DBD1;
  }
+ 
+ /* Note: Align left in settings for pages & posts */
+ h1 {
+  font-family: "Marcellus", serif;
+  font-weight: 300;
+  font-style: normal;
+  width:720px;
+  margin:0 auto;
+ }
+
+
+ /*  width for mobile etc, fix later */
+ /* h1{
+  width:calc(100% - 2 * var(--wp--style--block-gap)) !important;
+ } */
 
