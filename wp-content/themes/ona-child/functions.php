@@ -1,6 +1,6 @@
 <?php
 function child_theme_button_styles() {
-    wp_enqueue_style('child-theme-button-styles', get_stylesheet_directory_uri() . '/style.css');
+    wp_enqueue_style('child-theme-button-styles', get_stylesheet_directory_uri() . '/btnstyle.css');
 }
 add_action('wp_enqueue_scripts', 'child_theme_button_styles');
 
