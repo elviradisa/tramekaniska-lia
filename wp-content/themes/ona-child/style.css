@@ -15,10 +15,10 @@
  }
 
  header {
-  text-transform: uppercase;
   font-family: "Marcellus", serif;
   font-weight: 400;
   font-style: normal;
+  text-transform: uppercase;
  }
  
  /******
