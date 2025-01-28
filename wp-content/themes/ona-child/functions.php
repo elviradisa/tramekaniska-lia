@@ -35,7 +35,7 @@ function btn_brown($atts) {
 }
 add_shortcode('brown_btn', 'btn_brown');
 
-// Transparent knapp
+// Transparent knappt
 function btn_transparent($atts) {
     $atts = shortcode_atts([
         'link' => '#',
