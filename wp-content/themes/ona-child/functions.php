@@ -13,36 +13,36 @@ function child_theme_button_styles() {
 }
 add_action('wp_enqueue_scripts', 'child_theme_button_styles');
 
-// Om oss-knapp
-function btn_om_oss($atts) {
+// Svart knapp
+function btn_black($atts) {
     $atts = shortcode_atts([
         'link' => '#',
         'text' => 'Om oss',
     ], $atts);
 
-    return '<a href="' . esc_url($atts['link']) . '" class="button-om-oss">' . esc_html($atts['text']) . '</a>';
+    return '<a href="' . esc_url($atts['link']) . '" class="button-black">' . esc_html($atts['text']) . '</a>';
 }
-add_shortcode('om_oss_btn', 'btn_om_oss');
+add_shortcode('black_btn', 'btn_black');
 
-// Kontakt-knapp
-function btn_kontakt($atts) {
+// Brun knapp
+function btn_brown($atts) {
     $atts = shortcode_atts([
         'link' => '#',
         'text' => 'Kontakt',
     ], $atts);
 
-    return '<a href="' . esc_url($atts['link']) . '" class="button-kontakt">' . esc_html($atts['text']) . '</a>';
+    return '<a href="' . esc_url($atts['link']) . '" class="button-brown">' . esc_html($atts['text']) . '</a>';
 }
-add_shortcode('kontakt_btn', 'btn_kontakt');
+add_shortcode('brown_btn', 'btn_brown');
 
-// Se fler projekt-knapp
-function btn_se_fler_projekt($atts) {
+// Transparent knapp
+function btn_transparent($atts) {
     $atts = shortcode_atts([
         'link' => '#',
         'text' => 'Se fler projekt »',
     ], $atts);
 
-    return '<a href="' . esc_url($atts['link']) . '" class="button-se-fler-projekt">' . esc_html($atts['text']) . '</a>';
+    return '<a href="' . esc_url($atts['link']) . '" class="button-transparent">' . esc_html($atts['text']) . '</a>';
 }
-add_shortcode('se_fler_projekt_btn', 'btn_se_fler_projekt');
+add_shortcode('transparent_btn', 'btn_transparent');
 ?>
