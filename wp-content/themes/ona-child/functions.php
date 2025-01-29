@@ -7,3 +7,42 @@ function my_child_theme_styles() {
     wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css', array('parent-style'));
 }
 add_action('wp_enqueue_scripts', 'my_child_theme_styles');
+
+function child_theme_button_styles() {
+    wp_enqueue_style('child-theme-button-styles', get_stylesheet_directory_uri() . '/btn-style.css');
+}
+add_action('wp_enqueue_scripts', 'child_theme_button_styles');
+
+// Svart knapp
+function btn_black($atts) {
+    $atts = shortcode_atts([
+        'link' => '#',
+        'text' => 'Om oss',
+    ], $atts);
+
+    return '<a href="' . esc_url($atts['link']) . '" class="button-black">' . esc_html($atts['text']) . '</a>';
+}
+add_shortcode('black_btn', 'btn_black');
+
+// Brun knapp
+function btn_brown($atts) {
+    $atts = shortcode_atts([
+        'link' => '#',
+        'text' => 'Kontakt',
+    ], $atts);
+
+    return '<a href="' . esc_url($atts['link']) . '" class="button-brown">' . esc_html($atts['text']) . '</a>';
+}
+add_shortcode('brown_btn', 'btn_brown');
+
+// Transparent knappt
+function btn_transparent($atts) {
+    $atts = shortcode_atts([
+        'link' => '#',
+        'text' => 'Se fler projekt »',
+    ], $atts);
+
+    return '<a href="' . esc_url($atts['link']) . '" class="button-transparent">' . esc_html($atts['text']) . '</a>';
+}
+add_shortcode('transparent_btn', 'btn_transparent');
+?>
