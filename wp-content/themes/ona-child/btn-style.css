@@ -1,9 +1,12 @@
 .custom-button-wrapper {
+    display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
 
 .custom-button-wrapper-transparent {
+    display: inline-block;
     align-items: left;
     text-align: left;
 }
