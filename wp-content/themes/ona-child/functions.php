@@ -42,7 +42,7 @@ function btn_transparent($atts) {
         'text' => 'Se fler projekt »',
     ], $atts);
 
-    return '<div class="custom-button-wrapper"><a href="' . esc_url($atts['link']) . '" class="button-transparent">' . esc_html($atts['text']) . '</a>';
+    return '<div class="custom-button-wrapper-transparent"><a href="' . esc_url($atts['link']) . '" class="button-transparent">' . esc_html($atts['text']) . '</a>';
 }
 add_shortcode('transparent_btn', 'btn_transparent');
 ?>

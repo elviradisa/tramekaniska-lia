@@ -1,5 +1,11 @@
 .custom-button-wrapper {
-    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+
+.custom-button-wrapper-transparent {
+    align-items: left;
+    text-align: left;
 }
 
 .button-black {
