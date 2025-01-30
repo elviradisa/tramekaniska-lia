@@ -20,7 +20,7 @@ function btn_black($atts) {
         'text' => 'Om oss',
     ], $atts);
 
-    return '<a href="' . esc_url($atts['link']) . '" class="button-black">' . esc_html($atts['text']) . '</a>';
+    return '<div class="custom-button-wrapper"><a href="' . esc_url($atts['link']) . '" class="button-black">' . esc_html($atts['text']) . '</a>';
 }
 add_shortcode('black_btn', 'btn_black');
 
@@ -31,7 +31,7 @@ function btn_brown($atts) {
         'text' => 'Kontakt',
     ], $atts);
 
-    return '<a href="' . esc_url($atts['link']) . '" class="button-brown">' . esc_html($atts['text']) . '</a>';
+    return '<div class="custom-button-wrapper"><a href="' . esc_url($atts['link']) . '" class="button-brown">' . esc_html($atts['text']) . '</a>';
 }
 add_shortcode('brown_btn', 'btn_brown');
 
@@ -42,7 +42,7 @@ function btn_transparent($atts) {
         'text' => 'Se fler projekt »',
     ], $atts);
 
-    return '<a href="' . esc_url($atts['link']) . '" class="button-transparent">' . esc_html($atts['text']) . '</a>';
+    return '<div class="custom-button-wrapper"><a href="' . esc_url($atts['link']) . '" class="button-transparent">' . esc_html($atts['text']) . '</a>';
 }
 add_shortcode('transparent_btn', 'btn_transparent');
 ?>
