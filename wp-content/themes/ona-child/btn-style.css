@@ -1,4 +1,4 @@
-.custom-button-wrapper {
+/*.custom-button-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@
     display: inline-block;
     align-items: left;
     text-align: left;
-}
+}*/
 
 .button-black {
     display: inline-block;
