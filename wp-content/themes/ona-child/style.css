@@ -37,7 +37,7 @@
   letter-spacing: 1px;
  }
 
- h2.wp-block-post-title {
+ h2.wp-block-post-title, .wp-block-latest-posts__post-title {
   font-family: "Roboto", serif !important;
  }
 
