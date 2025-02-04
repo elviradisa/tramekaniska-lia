@@ -37,10 +37,11 @@
   letter-spacing: 1px;
  }
 
- h2.wp-block-post-title, a.wp-block-latest-posts__post-title, .wp-block-latest-posts, .wp-block-latest-posts__list li {
+ h2.wp-block-heading,h3, h3.wp-block-heading, .wp-block-post-title  {
   font-family: "Roboto", serif;
  }
 
- h3.wp-block-heading, .wp-block-post-title {
-  font-family: "Roboto", serif;
+ a.wp-block-latest-posts__post-title, .wp-block-latest-posts, .wp-block-latest-posts__list li {
+  font-family: "Work Sans", serif;
  }
+

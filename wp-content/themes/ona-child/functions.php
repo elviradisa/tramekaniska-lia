@@ -11,9 +11,12 @@ function my_child_theme_styles() {
     //Button styles
     wp_enqueue_style('child-theme-button-styles', get_stylesheet_directory_uri() . '/btn-style.css', array('child-style'));
 
-}
-add_action('wp_enqueue_scripts', 'my_child_theme_styles');
+    //Portfolio/posts styles
+    wp_enqueue_style('child-portfolio-style', get_stylesheet_directory_uri() . '/portfolio.css', array('child-style'));
 
+}
+
+add_action('wp_enqueue_scripts', 'my_child_theme_styles');
 
 
 /**************
