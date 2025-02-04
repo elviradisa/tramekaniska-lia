@@ -8,7 +8,7 @@
 
  /* Base settings */ 
 
-@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
  body {
   background-color: #F2F0EC;
@@ -27,7 +27,7 @@
   - "Inre block använder innehållsbredd" 
   *******/
   
- h1,  h1.wp-block-site-title {
+ h1,  h1.wp-block-site-title, h1.wp-block-post-title {
   font-family: "Marcellus", serif;
   font-weight: 300;
   font-style: normal;
@@ -36,3 +36,12 @@
  h1.wp-block-site-title { 
   letter-spacing: 1px;
  }
+
+ h2.wp-block-heading,h3, h3.wp-block-heading, .wp-block-post-title  {
+  font-family: "Roboto", serif;
+ }
+
+ a.wp-block-latest-posts__post-title, .wp-block-latest-posts, .wp-block-latest-posts__list li {
+  font-family: "Work Sans", serif;
+ }
+
