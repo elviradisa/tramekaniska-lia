@@ -14,33 +14,6 @@
   background-color: #F2F0EC;
  }
 
- header {
-  font-family: "Marcellus", serif;
-  font-weight: 400;
-  font-style: normal;
-  text-transform: uppercase;
- }
- 
- /******
- Note: Settings for pages & posts must be: 
-  - Align left & 
-  - "Inre block använder innehållsbredd" 
-  *******/
-  
- h1,  h1.wp-block-site-title, h1.wp-block-post-title {
-  font-family: "Marcellus", serif;
-  font-weight: 300;
-  font-style: normal;
- }
-
  h1.wp-block-site-title { 
   letter-spacing: 1px;
- }
-
- h2.wp-block-post-title, a.wp-block-latest-posts__post-title, .wp-block-latest-posts, .wp-block-latest-posts__list li {
-  font-family: "Roboto", serif;
- }
-
- h3.wp-block-heading, .wp-block-post-title {
-  font-family: "Roboto", serif;
  }
