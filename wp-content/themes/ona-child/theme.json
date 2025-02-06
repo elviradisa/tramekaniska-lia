@@ -206,63 +206,68 @@
 					"slug": "system-font"
 				},
 				{
-					"fontFamily": "\"Gilda Display\", serif",
-					"name": "Gilda Display",
+					"fontFamily": "\"Marcellus\", serif",
+					"name": "Marcellus",
 					"slug": "headings",
 					"fontFace": [
 						{
-							"fontFamily": "Gilda Display",
+							"fontFamily": "Marcellus",
 							"fontWeight": "400",
 							"fontStyle": "normal",
 							"fontStretch": "normal",
 							"fontDisplay": "swap",
-							"src": [
-								"file:./assets/fonts/gilda-display/GildaDisplay-Regular.woff"
-							]
+							"src": ["file:./assets/fonts/marcellus/Marcellus-Regular.ttf"]
 						}
 					]
 				},
 				{
-					"fontFamily": "\"Nunito Sans\", sans-serif",
-					"name": "Nunito Sans",
+					"fontFamily": "\"Roboto\", serif",
+					"name": "Roboto",
 					"slug": "base",
 					"fontFace": [
 						{
-							"fontFamily": "Nunito Sans",
+							"fontFamily": "Roboto",
 							"fontWeight": "400",
 							"fontStyle": "normal",
 							"fontStretch": "normal",
 							"fontDisplay": "swap",
-							"src": ["file:./assets/fonts/nunito-sans/NunitoSans-Regular.woff"]
+							"src": ["file:./assets/fonts/roboto/Roboto-VariableFont_wdth,wght.ttf"]
 						},
 						{
-							"fontFamily": "Nunito Sans",
+							"fontFamily": "Roboto",
 							"fontWeight": "400",
 							"fontStyle": "italic",
 							"fontStretch": "normal",
 							"fontDisplay": "swap",
-							"src": ["file:./assets/fonts/nunito-sans/NunitoSans-Italic.woff"]
-						},
-						{
-							"fontFamily": "Nunito Sans",
-							"fontWeight": "600",
-							"fontStyle": "normal",
-							"fontStretch": "normal",
-							"fontDisplay": "swap",
-							"src": [
-								"file:./assets/fonts/nunito-sans/NunitoSans-SemiBold.woff"
-							]
-						},
-						{
-							"fontFamily": "Nunito Sans",
-							"fontWeight": "700",
-							"fontStyle": "normal",
-							"fontStretch": "normal",
-							"fontDisplay": "swap",
-							"src": ["file:./assets/fonts/nunito-sans/NunitoSans-Bold.woff"]
+							"src": ["file:./assets/fonts/roboto/Roboto-Italic-VariableFont_wdth,wght.ttf"]
 						}
 					]
 				},
+        {
+					"fontFamily": "\"Work Sans\", serif",
+					"name": "Work Sans",
+					"slug": "project-headings",
+					"fontFace": [
+						{
+							"fontFamily": "Work Sans",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"fontDisplay": "swap",
+							"src": ["file:./assets/fonts/work-sans/WorkSans-VariableFont_wght.ttf"]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"fontDisplay": "swap",
+							"src": ["file:./assets/fonts/work-sans/WorkSans-Italic-VariableFont_wght.ttf"]
+						}
+					]
+				},
+        
+
 				{
 					"fontFamily": "\"Bestermind\", sans-serif",
 					"name": "Bestermind",
