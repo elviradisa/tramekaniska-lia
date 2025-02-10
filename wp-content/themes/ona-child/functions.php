@@ -14,6 +14,10 @@ function my_child_theme_styles() {
     //Portfolio/posts styles
     wp_enqueue_style('child-portfolio-style', get_stylesheet_directory_uri() . '/portfolio.css', array('child-style'));
 
+    //Homepage category-images
+    wp_enqueue_style('child-category-image-style', get_stylesheet_directory_uri() . '/category-image.css', array('child-style'));
+
+
 }
 
 add_action('wp_enqueue_scripts', 'my_child_theme_styles');
