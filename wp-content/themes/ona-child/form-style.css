@@ -13,15 +13,18 @@ input[type="text"],
 input[type="email"],
 textarea {
     width: 100%;
-    padding: 8px;
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 14px;
 }
 
 textarea {
-    height: 200px;
+    height: 100px;
+}
+
+input[type="text"],
+input[type="email"] {
+    height: 40px;
 }
   
 /*Skicka-knappen*/
@@ -29,8 +32,7 @@ textarea {
     background-color: #fff;
     color: #000;
     border: 2px solid #000;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 5px 20px;
     border-radius: 20px;
     cursor: pointer;
     width: 100px;
@@ -44,4 +46,8 @@ textarea {
     align-items: center;
     margin-top: 10px;
   }
+
+label {
+    font-family: "Work Sans", serif !important;
+}
   
