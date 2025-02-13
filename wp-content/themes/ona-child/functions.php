@@ -17,6 +17,9 @@ function my_child_theme_styles() {
     //Homepage category-images
     wp_enqueue_style('child-category-image-style', get_stylesheet_directory_uri() . '/category-image.css', array('child-style'));
 
+    //Hero-image mobile vs desktop size
+    wp_enqueue_style('child-hero-image-style', get_stylesheet_directory_uri() . '/hero-image.css', array('child-style'));
+
 
 }
 
