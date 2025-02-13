@@ -14,9 +14,9 @@
   background-color: #F2F0EC;
  }
 
- h1.wp-block-site-title {
+ h1.wp-block-site-title, h1.wp-block-site-titl a {
   letter-spacing: 1px;
   font-family: "Marcellus", serif;
   text-transform: uppercase;
-  
 }
+
