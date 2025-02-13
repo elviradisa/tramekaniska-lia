@@ -40,6 +40,10 @@ input[type="email"] {
     margin-top: 10px;
 }
 
+.submit-btn:hover {
+    background-color: #ffffff60;
+}
+
 .button-container {
     display: flex;
     justify-content: center;
