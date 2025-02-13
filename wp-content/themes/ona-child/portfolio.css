@@ -2,6 +2,30 @@
   margin-bottom:0;
 } */
 
-h2.wp-block-post-title, .wp-container-content-1{
+/* h2.wp-block-post-title, .wp-container-content-1{
   font-family: "Work Sans", serif;
- }
+ } */
+
+ .wp-block-post-terms a[href*="projekt"] {
+  color: red;
+}
+
+/* .wp-block-post-terms a[href*="projekt"] {
+  display:none;
+} */
+
+/* .wp-block-post-template .category-projekt a {
+  color: rgb(123, 255, 0);
+}  */
+  
+/* .category-7{
+  color:aqua;
+} */
+
+/* .projekt-content{
+  color:rgb(255, 127, 249);
+} */
+
+/* .hide-kategories {
+  color:chocolate;
+} */
