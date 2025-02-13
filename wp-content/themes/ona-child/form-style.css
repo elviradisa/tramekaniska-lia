@@ -1,0 +1,53 @@
+/*Förnamn och efternamn*/
+.form-container {
+    display: flex;
+    gap: 10px;
+}
+  
+.input-group {
+    flex: 1;
+}
+  
+/*Input och textruta*/
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="text"],
+input[type="email"] {
+    height: 40px;
+}
+  
+/*Skicka-knappen*/
+.submit-btn {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    padding: 5px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+label {
+    font-family: "Work Sans", serif !important;
+}
+  
