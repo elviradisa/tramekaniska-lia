@@ -8,7 +8,7 @@
   }
 
 .wp-block-button__link[href*="portfolio"]:hover {
-    background-color: #F2F0EC !important;
+    background-color: transparent !important;
     color: #4e4d4d !important;
     text-decoration: underline !important;
   }
