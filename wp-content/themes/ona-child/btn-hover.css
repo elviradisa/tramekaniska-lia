@@ -5,12 +5,14 @@
 
 .wp-block-button__link[href*="portfolio"] {
     border: none !important;
+    background-color: transparent !important;
   }
 
 .wp-block-button__link[href*="portfolio"]:hover {
     background-color: transparent !important;
     color: #4e4d4d !important;
     text-decoration: underline !important;
+    border:none !important;
   }
 
 .wp-block-button__link[href*="om-oss"]:hover {
