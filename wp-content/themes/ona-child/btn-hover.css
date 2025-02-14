@@ -1,12 +1,12 @@
-.wp-block-button__link[href="https://dev.tramekaniska.se/om-oss/"]:hover {
+.wp-block-button__link[href*="om-oss"]:hover {
     background-color: #ffffff60 !important;
   }
   
-  .wp-block-button__link[href="https://dev.tramekaniska.se/kontakt/"]:hover {
+  .wp-block-button__link[href*="kontakt"]:hover {
     background-color: #7c6758 !important;
     color: #fff !important;
   }
 
-  .wp-block-button__link[href="https://dev.tramekaniska.se/kontakt/"]:focus {
+  .wp-block-button__link[href*="kontakt"]:focus {
     color: #fff !important;
   }
