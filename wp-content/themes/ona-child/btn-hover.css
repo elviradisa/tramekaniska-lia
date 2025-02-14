@@ -22,3 +22,13 @@
     background-color: #7c6758 !important;
     color: #ffffff !important;
   }
+
+.has-lead-font-size a{
+    color: #636363 !important;
+    text-decoration: none !important;
+  }
+
+.has-lead-font-size a:hover {
+  color: #4e4d4d !important;
+  text-decoration: underline !important;
+  }
