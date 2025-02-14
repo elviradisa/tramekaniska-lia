@@ -1,7 +1,3 @@
-.wp-block-button__link:hover {
-    background-color: #fff !important;
-    color: black !important;
-  }
 .wp-block-button__link[href*="portfolio"]:hover {
     background-color: #ffffff60 !important;
   }
