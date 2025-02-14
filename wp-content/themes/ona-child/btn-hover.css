@@ -1,0 +1,11 @@
+.wp-block-button__link[href*="portfolio"]:hover {
+    background-color: #ffffff60 !important;
+  }
+
+.wp-block-button__link[href*="om-oss"]:hover {
+    background-color: #ffffff60 !important;
+  }
+  
+.wp-block-button__link[href*="kontakt"]:hover {
+    background-color: #7c6758 !important;
+  }

@@ -23,6 +23,9 @@ function my_child_theme_styles() {
     //Form styles
     wp_enqueue_style('child-form-style', get_stylesheet_directory_uri() . '/form-style.css');
 
+    //Btn-hover styles
+    wp_enqueue_style('child-btn-hover-style', get_stylesheet_directory_uri() . '/btn-hover.css');
+
 }
 
 add_action('wp_enqueue_scripts', 'my_child_theme_styles');
