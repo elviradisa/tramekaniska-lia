@@ -1,4 +1,18 @@
-/* .wp-block-post-featured-image{
-  margin-bottom:0;
-} */
+/* Hides category named "Projekt" in category lists */ 
+.wp-block-post-terms.wp-block-post-terms.taxonomy-category a[href*="portfolio"] {
+  display:none;
+}
 
+.wp-block-post-terms.wp-block-post-terms.taxonomy-category a[href*="featured"] {
+  display:none;
+}
+
+/* Hide the separator AFTER "Projekt" */
+.wp-block-post-terms.wp-block-post-terms.taxonomy-category a[href*="portfolio"] + .wp-block-post-terms__separator {
+  display: none;
+}
+
+/* Hide the separator BEFORE "Projekt" when it's the last category */
+.wp-block-post-terms__separator:has(+ a[href*="portfolio"]) {
+  display: none;
+}
