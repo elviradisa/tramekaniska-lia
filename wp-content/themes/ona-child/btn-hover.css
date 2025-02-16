@@ -4,16 +4,33 @@
   }
 
 .wp-block-button__link[href*="portfolio"] {
-    border: none !important;
+    position: relative !important;
+    display: inline-block !important;
     background-color: transparent !important;
+    color: #636363 !important;
+    text-decoration: none !important;
+    border: none !important;
   }
 
 .wp-block-button__link[href*="portfolio"]:hover {
-    background-color: transparent !important;
     color: #4e4d4d !important;
-    text-decoration: underline !important;
-    border:none !important;
   }
+  
+.wp-block-button__link[href*="portfolio"]::after {
+    content: "" !important;
+    position: absolute !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    width: 0% !important;
+    height: 2px !important;
+    background-color: #4e4d4d !important;
+    transition: width 0.3s ease !important;
+  }
+  
+.wp-block-button__link[href*="portfolio"]:hover::after {
+    width: 100% !important;
+  }
+  
 
 .wp-block-button__link[href*="om-oss"]:hover {
     background-color: #ffffff60 !important;
@@ -25,12 +42,30 @@
     color: #ffffff !important;
   }
 
-.has-lead-font-size a{
-    color: #636363 !important;
-    text-decoration: none !important;
-  }
+.has-lead-font-size a {
+  position: relative !important;
+  display: inline-block !important;
+  background-color: transparent !important;
+  color: #636363 !important;
+  text-decoration: none !important;
+  border: none !important;
+}
 
 .has-lead-font-size a:hover {
-    color: #4e4d4d !important;
-    text-decoration: underline !important;
-  }
+  color: #4e4d4d !important;
+}
+
+.has-lead-font-size a::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  width: 0% !important;
+  height: 2px !important;
+  background-color: #4e4d4d !important;
+  transition: width 0.3s ease !important;
+}
+
+.has-lead-font-size a:hover::after {
+  width: 100% !important;
+}
