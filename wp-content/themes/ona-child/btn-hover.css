@@ -30,7 +30,14 @@
 .wp-block-button__link[href*="portfolio"]:hover::after {
     width: 100% !important;
   }
-  
+
+.wp-block-button__link[href*="portfolio"]::before {
+  content: "SE ALLA PROJEKT→\00a0";
+}
+
+.wp-block-button__link[href*="portfolio"]:hover::before {
+  content: "SE ALLA PROJEKT\00a0→";
+}
 
 .wp-block-button__link[href*="om-oss"]:hover {
     background-color: #ffffff60 !important;
@@ -69,3 +76,12 @@
 .has-lead-font-size a:hover::after {
   width: 100% !important;
 }
+
+.has-lead-font-size a::before {
+  content: "Läs mer→\00a0";
+}
+
+.has-lead-font-size a:hover::before {
+  content: "Läs mer\00a0→";
+}
+
