@@ -2,9 +2,9 @@
     position: relative !important;
     display: inline-block !important;
     background-color: transparent !important;
-    color: #636363 !important;
     text-decoration: none !important;
     border: none !important;
+    padding: 3px !important;
   }
 
 .wp-block-button__link[href*="portfolio"]:hover {
@@ -26,14 +26,6 @@
     width: 100% !important;
   }
 
-.wp-block-button__link[href*="portfolio"]::before {
-  content: "SE ALLA PROJEKT>>\00a0";
-}
-
-.wp-block-button__link[href*="portfolio"]:hover::before {
-  content: "SE ALLA PROJEKT\00a0>>";
-}
-
 .wp-block-button__link[href*="om-oss"]:hover {
     background-color: #ffffff60 !important;
     color: #000000 !important;
@@ -44,20 +36,20 @@
     color: #ffffff !important;
   }
 
-  .miljohall a {
+.link-in-text a {
     position: relative !important;
     display: inline-block !important;
     background-color: transparent !important;
-    color: #636363 !important;
     text-decoration: none !important;
     border: none !important;
+    font-weight: bold !important;
   }
   
-  .miljohall a:hover {
+.link-in-text a:hover {
     color: #4e4d4d !important;
   }
   
-  .miljohall a::after {
+.link-in-text a::after {
     content: "" !important;
     position: absolute !important;
     left: 0 !important;
@@ -68,30 +60,6 @@
     transition: width 0.3s ease !important;
   }
   
-  .miljohall a:hover::after {
+.link-in-text a:hover::after {
     width: 100% !important;
   }
-  
-  .miljohall a::before {
-    content: "Läs mer>>\00a0";
-  }
-  
-  .miljohall a:hover::before {
-    content: "Läs mer\00a0>>";
-  }
-
-/*Petras origin
-
-.wp-block-button__link[href*="portfolio"] {
-  border: none !important;
-  background-color: transparent !important;
-  background-color: aquamarin !important;;
-}
-
-.wp-block-button__link[href*="portfolio"]:hover {
-  background-color: transparent !important;
-  color: #4e4d4d !important;
-  text-decoration: underline !important;
-  border:none !important;
-  background-color: transparent !important;
-}
