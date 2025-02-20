@@ -1,30 +1,33 @@
+/*gammalt
+
 .wp-block-button__link[href*="portfolio"] {
-    position: relative !important;
-    display: inline-block !important;
-    background-color: transparent !important;
-    text-decoration: none !important;
-    border: none !important;
-    padding: 3px !important;
-  }
+  position: relative !important;
+  display: inline-block !important;
+  background-color: #f2f0ec !important;
+  text-decoration: none !important;
+  border: none !important;
+}
 
 .wp-block-button__link[href*="portfolio"]:hover {
-    color: #4e4d4d !important;
-  }
-  
+  color: #4e4d4d !important;
+  text-decoration: none !important;
+}
+
 .wp-block-button__link[href*="portfolio"]::after {
-    content: "" !important;
-    position: absolute !important;
-    left: 0 !important;
-    bottom: 0 !important;
-    width: 0% !important;
-    height: 2px !important;
-    background-color: #4e4d4d !important;
-    transition: width 0.3s ease !important;
-  }
-  
+  content: "" !important;
+  position: absolute !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  width: 0% !important;
+  height: 2px !important;
+  background-color: #4e4d4d !important;
+  transition: width 0.3s ease !important;
+}
+
 .wp-block-button__link[href*="portfolio"]:hover::after {
-    width: 100% !important;
-  }
+  width: 100% !important;
+}
+*/
 
 .wp-block-button__link[href*="om-oss"]:hover {
     background-color: #ffffff60 !important;
