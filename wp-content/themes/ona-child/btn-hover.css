@@ -29,16 +29,20 @@
 }
 */
 
+/*call to action*/
 .wp-block-button__link[href*="om-oss"]:hover {
     background-color: #ffffff60 !important;
     color: #000000 !important;
+    box-shadow: 1px 1px black;
   }
   
 .wp-block-button__link[href*="kontakt"]:hover {
     background-color: #7c6758 !important;
     color: #ffffff !important;
+    box-shadow: 1px 1px black;
   }
 
+/*textlänkar*/
 .link-in-text a {
     position: relative !important;
     display: inline-block !important;
