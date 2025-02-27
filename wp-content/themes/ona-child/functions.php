@@ -27,7 +27,7 @@ function my_child_theme_styles() {
     wp_enqueue_style('child-btn-hover-style', get_stylesheet_directory_uri() . '/btn-hover.css');
 
     //grön bock till 'kvalitetssäkring'-bild
-    wp_enqueue_style('kvalitetssakring-gron-bock', get_stylesheet_directory_uri() . '/gron-bock.css');
+    // wp_enqueue_style('kvalitetssakring-gron-bock', get_stylesheet_directory_uri() . '/gron-bock.css');
 
 }
 
