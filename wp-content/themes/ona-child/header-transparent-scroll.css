@@ -1,0 +1,8 @@
+.header-transparent-scroll {
+    background-color: black;
+    transition: background-color 1s ease;
+}
+
+.scrolled {
+    background-color: rgba(0, 0, 0, 0.456);
+}
