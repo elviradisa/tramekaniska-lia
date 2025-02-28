@@ -1,34 +1,3 @@
-/*gammalt
-
-.wp-block-button__link[href*="portfolio"] {
-  position: relative !important;
-  display: inline-block !important;
-  background-color: #f2f0ec !important;
-  text-decoration: none !important;
-  border: none !important;
-}
-
-.wp-block-button__link[href*="portfolio"]:hover {
-  color: #4e4d4d !important;
-  text-decoration: none !important;
-}
-
-.wp-block-button__link[href*="portfolio"]::after {
-  content: "" !important;
-  position: absolute !important;
-  left: 0 !important;
-  bottom: 0 !important;
-  width: 0% !important;
-  height: 2px !important;
-  background-color: #4e4d4d !important;
-  transition: width 0.3s ease !important;
-}
-
-.wp-block-button__link[href*="portfolio"]:hover::after {
-  width: 100% !important;
-}
-*/
-
 /*call to action*/
 .wp-block-button__link[href*="om-oss"]:hover {
     background-color: #ffffff60 !important;
@@ -69,3 +38,23 @@
 .link-in-text a:hover::after {
     width: 100% !important;
   }
+
+/* Tar bort understrecket vid hover över kategorier i portfolio*/
+.wp-block-post-title a,
+.wp-block-post-terms a {
+	display: inline;
+	background-repeat: no-repeat;
+	background-image: none !important;
+	transition: none !important;
+	background-size: 0 95%;
+}
+
+.has-small-font-size:hover, .wp-block-post-title a:hover,
+.wp-block-post-terms a:hover {
+color: #4e4d4d;
+}
+
+.has-text-align-right:hover, .wp-block-column a{
+  color: #8e8e8e;
+  text-decoration: none;
+}
