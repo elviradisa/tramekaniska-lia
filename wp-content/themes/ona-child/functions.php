@@ -35,7 +35,7 @@ add_action('wp_enqueue_scripts', 'my_child_theme_styles');
 function dynamic_year_link() {
     $year = get_post_meta(get_the_ID(), 'År', true);
     if ($year) {
-        return esc_url("/tag/" . $year);
+        return esc_url("/tag/" . $year . "/");
     }
     return "#";
 }
@@ -52,7 +52,7 @@ function dynamic_city_link() {
         $city = str_replace('Ä', 'A', $city);
         $city = strtolower($city);
         $city = str_replace(' ', '-', $city);
-        return esc_url("/tag/" . $city);
+        return esc_url("/tag/" . $city . "/");
     }
     return "#";
 }
@@ -69,7 +69,7 @@ function dynamic_concept_link() {
         $concept = str_replace('Ä', 'A', $concept);
         $concept = strtolower($concept);
         $concept = str_replace(' ', '-', $concept);
-        return esc_url("/tag/" . $concept);
+        return esc_url("/tag/" . $concept . "/");
     }
     return "#";
 }
