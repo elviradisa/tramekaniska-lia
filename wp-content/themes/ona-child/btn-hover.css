@@ -58,3 +58,7 @@ color: #4e4d4d;
   color: #8e8e8e;
   text-decoration: none;
 }
+
+.link-fit {
+  width: fit-content;
+}
