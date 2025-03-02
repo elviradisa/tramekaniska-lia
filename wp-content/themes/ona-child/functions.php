@@ -26,6 +26,12 @@ function my_child_theme_styles() {
     //Btn-hover styles
     wp_enqueue_style('child-btn-hover-style', get_stylesheet_directory_uri() . '/btn-hover.css');
 
+    //grön bock till 'kvalitetssäkring'-bild
+    // wp_enqueue_style('kvalitetssakring-gron-bock', get_stylesheet_directory_uri() . '/gron-bock.css');
+
+    //header transparent när man scrollar
+    wp_enqueue_style('header-transparent-scroll', get_stylesheet_directory_uri() . '/header-transparent-scroll.css');
+
 }
 
 add_action('wp_enqueue_scripts', 'my_child_theme_styles');
@@ -74,4 +80,14 @@ function dynamic_concept_link() {
     return "#";
 }
 add_shortcode('meta_concept_link', 'dynamic_concept_link');
+
+
+function custom_enqueue_scripts() {
+    wp_enqueue_script(
+        'header-scroll',
+        get_stylesheet_directory_uri() . '/js/header-scroll.js',  
+    );
+}
+
+add_action('wp_enqueue_scripts', 'custom_enqueue_scripts');
 ?>
