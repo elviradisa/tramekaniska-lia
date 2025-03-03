@@ -54,11 +54,19 @@
 color: #4e4d4d;
 }
 
-.has-text-align-right:hover, .wp-block-column a{
+.has-text-align-right:hover, .wp-block-column a {
   color: #8e8e8e;
   text-decoration: none;
 }
 
 .link-fit {
   width: fit-content;
+}
+
+.invisible-tags {
+  display: none;
+}
+
+.mail-link a {
+  color: #4e4d4d;
 }
