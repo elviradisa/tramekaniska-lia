@@ -80,7 +80,9 @@ function dynamic_concept_link() {
     return "#";
 }
 add_shortcode('meta_concept_link', 'dynamic_concept_link');
+?>
 
+<?php
 
 function custom_enqueue_scripts() {
     wp_enqueue_script(
