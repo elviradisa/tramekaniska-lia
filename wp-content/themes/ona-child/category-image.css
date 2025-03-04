@@ -1,5 +1,16 @@
-.img-nofo:hover img {
-    filter: blur(5px);
+.img-nofo::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+
+.img-nofo:hover::after {
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .img-nofo .hover-text {
