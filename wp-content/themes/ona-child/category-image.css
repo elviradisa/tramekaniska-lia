@@ -1,3 +1,7 @@
+.img-nofo a {
+    text-decoration: none!important;
+}
+
 .img-nofo::after {
     content: "";
     position: absolute;
