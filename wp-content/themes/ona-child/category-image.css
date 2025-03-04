@@ -14,7 +14,7 @@
 }
 
 .img-nofo:hover::after {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.75);
 }
 
 .img-nofo .hover-text {
@@ -26,5 +26,4 @@
 .img-nofo:hover .hover-text {
     opacity: 1;
     visibility: visible;
-    text-decoration: none;
 }
